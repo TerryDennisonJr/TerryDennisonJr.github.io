@@ -240,6 +240,8 @@ body {
 	padding: 3;
 	background-image: url(
 		https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-572897.jpg&fm=jpg);
+
+		background-size: contain;
 	
 
 }
