@@ -42,6 +42,7 @@ border table, tr, td {
 header {
 		margin-top: 0.2em;
 		background-color: beige;
+		
 		border-radius: 0.5em;
 		text-align: center;
 }
@@ -234,7 +235,8 @@ h2 {
 
 body {
 	padding: 5%;
-	background-color: teal;
+	/*background-color: teal;*/
+	background-image: "/img/mtn.png";
 }
 }
 
