@@ -18,6 +18,11 @@ img {margin-right: 5%;
 	float:left;
 }
 
+#tdimg {
+
+	padding-top: 45pt;
+
+}
 /*center audio control*/
 audio{
 	text-align: center;
@@ -32,19 +37,18 @@ border table, tr, td {
 }
 
 /*styling for container*/
-#container {
-		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		
-}
+
 /*Styling for header*/
 header {
-		margin-top: 0.2em;
+		margin-top: 50pt;
 		background-color: beige;
+		width: 350pt;
+		position: absolute;
+		right: 30%;
 		
 		border-radius: 0.5em;
 		text-align: center;
+		
 }
 
 /*styling for footer*/
@@ -225,8 +229,8 @@ margin: 0 auto 0 auto;
 /*Puts name at the top of the webpage with large Futura font*/
 
 .myname {font-family: Futura, Calibri, sans-serif;
-font-size: 12pt;
-text-shadow: 0.1em 0.1em #3D3D35;
+font-size: 26pt;
+text-shadow: 0.08em 0.08em #3D3D35;
 }
 
 h2 {
