@@ -133,6 +133,7 @@ figure {
 	main {
 			clear: left;
 			margin-top: 4em;
+			line-height: 55pt;
 	}
 	
 	/*Style to hide mobile class*/
@@ -192,6 +193,7 @@ figure {
 				box-shadow: 0.5em 0.5em 0.5em #404040;
 				margin-bottom: 1em;
 				margin-top: 1em;
+				
 		}
 		
 		/*specific styling for main element*/
@@ -220,6 +222,9 @@ margin: 0 auto 0 auto;
 		padding: 3%;
 		border: 2px black solid;
 		border-radius: 25px;
+		margin: 50pt;
+    
+		
 		
 }
 
