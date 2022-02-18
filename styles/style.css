@@ -1,6 +1,23 @@
 /* Style sheet created by: Terry Dennison */
 
-*{
-	color: blue;
+
+html {
+    height: 100%;
+    margin: 0;
+}
+body {
+  margin: 0;
+  background-color: #3aafa9;
+ 
+  min-height: 100%;
+  margin: 0;
+   
+
+}
+.div_intro{
+  height: 90%;
 }
 
+h1{
+  text-align: center;
+}
