@@ -1,23 +1,88 @@
-/* Style sheet created by: Terry Dennison */
-
-
-html {
-    height: 100%;
-    margin: 0;
+.name_color {
+  color: red;
 }
-body {
-  margin: 0;
-  background-color: #3aafa9;
+
+.td_img {
+  float: left;
+  margin-right: 3%;
+  margin-bottom: 2%;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.outterwrapper {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+#main {
+  clear: both;
+  background-color: lightblue;
+  padding: 3%;
+  border: 2px black solid;
+  border-radius: 25px;
+}
+
+.myname {
+  font-family: Futura, Calibri, sans-serif;
+  font-size: 2em;
+}
+
+.intro,
+.about_me,
+.skills,
+.projects {
+  clear: both;
+  background-color: lightblue;
+  padding: 3%;
+  border: 2px black solid;
+  border-radius: 25px;
+}
+.img_grid{
+
+  display: flex;
+  gap: .5em;
+
+}
+.pets {
+  width: 400px;
+  height: 400px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
  
-  min-height: 100%;
-  margin: 0;
-   
-
+  
 }
-.div_intro{
-  height: 90%;
+.icon_grid{
+  height: 50px;
+  width:50px;
+  padding: 0 0 10% 30%;
+  
 }
 
-h1{
+.contact {
+  clear: both;
+  background-color: lightblue;
+  padding: 3%;
+  border: 2px black solid;
+  border-radius: 25px;
+}
+
+.intro,
+.about_me,
+.skills,
+.projects {
+  margin-bottom: 10%;
+}
+
+footer {
   text-align: center;
 }
