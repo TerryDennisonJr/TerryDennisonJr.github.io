@@ -1,19 +1,87 @@
 .name_color {
-  color: red;
+  color: #29648a;
+  text-decoration: underline;
+}
+body {
+  background-color: #eae7dc;
+  margin: 0;
+  padding: 0;
+}
+hr {
+  border-top: 5px dotted #000;
+  width: 3%;
+  border-bottom: none;
+  position: relative;
+  margin-top: 10%;
 }
 
 .td_img {
   float: left;
   margin-right: 3%;
   margin-bottom: 2%;
+  width: 400px;
+  height: 400px;
+  border-radius: 90%;
+  border: 3px solid black;
 }
 
-nav li {
-  list-style-type: none;
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #97caef;
+  color: black;
+  font-family: Futura, Calibri, sans-serif;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border: 2px black solid;
+  margin-top: 1%;
 }
 
-a {
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: fixed;
+  right: 3px;
+  top: 0;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  font-family: Futura, Calibri, sans-serif;
+  display: none;
+  position: absolute;
+  background-color: #eae7dc;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 1px;
+  border: 3px black solid;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
   text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #97caef;
+  border: 2px black solid;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #97caef;
 }
 
 .outterwrapper {
@@ -23,64 +91,70 @@ a {
 
 #main {
   clear: both;
-  background-color: lightblue;
+  background-color: #97caef;
   padding: 3%;
+  margin-left: 2%;
   border: 2px black solid;
   border-radius: 25px;
+  width: 82.5%;
+  position: relative;
 }
 
 .myname {
   font-family: Futura, Calibri, sans-serif;
   font-size: 2em;
 }
+p,
+li {
+  font-family: Futura, Calibri, sans-serif;
+}
 
 .intro,
 .about_me,
 .skills,
 .projects {
   clear: both;
-  background-color: lightblue;
-  padding: 3%;
-  border: 2px black solid;
-  border-radius: 25px;
+  background-color: #97caef;
+  padding: 0 3%;
 }
-.img_grid{
 
-  display: flex;
-  gap: .5em;
-
-}
 .pets {
   width: 400px;
   height: 400px;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
  
-  
+
 }
-.icon_grid{
+.icon_grid {
   height: 50px;
-  width:50px;
-  padding: 0 0 10% 30%;
-  
+  width: 50px;
+  padding: 0 0 1% 30%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  text-align: center;
+  font-family: 'Allura', cursive;
+  font-size: 20px;
+  color: white;
 }
 
 .contact {
   clear: both;
-  background-color: lightblue;
+  background-color: #97caef;
   padding: 3%;
   border: 2px black solid;
   border-radius: 25px;
+  
 }
 
 .intro,
 .about_me,
 .skills,
 .projects {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 footer {
